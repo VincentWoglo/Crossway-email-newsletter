@@ -51,4 +51,29 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 3em;
+    margin-bottom: 4em;
+}
+.vector-explore{
+    width: 200px;
+}
+.explore-more{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.connect-with-us{
+    text-align: center;
+    color: #72abbf;
+}
+.social-media{
+    margin: auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-media img{
+    width: 20px;
 }
