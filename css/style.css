@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-news{
+    width: 52%;
+    margin: auto;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.crossway-logo{
+    width: 300px;
+}
+.header-banner{
+    width: 100%;
+}
+body{
+    background-color: #f8f8f8;
+}
+.download-title{
+    color: #514d47;
+    text-align: center;
+    margin-top: 2em;
+}
+.download-ebook{
+    margin: auto;
+    width: 80%;
+    
+}
+.download-desc-1,.download-desc-2{
+    padding-top: 2em;
+    line-height: 1.6;
+}
+.news-section{
+    background-color: #fff;
+    border: 1px #e0dfdf solid;
+}
+.get-the-book{
+    padding: 20px 50px;
+    background-color: #9bb5be;
+    border: 1px #9bb5be solid;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+.input-get-book{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
