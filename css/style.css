@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .main-news{
     width: 52%;
@@ -70,10 +72,49 @@ body{
 }
 .social-media{
     margin: auto;
+    margin-top: 2em;
     width: 200px;
     display: flex;
     justify-content: space-between;
 }
 .social-media img{
     width: 20px;
+}
+footer{
+    margin-top: 5em;
+    color: #bdbdbd;
+}
+.footer-subscribe{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin: auto;
+    list-style-type: none;
+    text-decoration: underline;
+    margin-top: 2em;
+}
+.unsubscribe,.subscrine-to-newsletter{
+    border-right: 1px #bdbdbd solid;
+    padding-right: .6em;
+}
+.about-crossway{
+    text-align: center;
+    margin: auto;
+    margin-top: 3em;
+    width: 50%;
+    line-height: 1.6;
+}
+.why-recieve-this-email{
+    margin-top: 3em;
+}
+.address{
+    margin: auto;
+    text-align: center;
+    margin-top: 2em;
+}
+.physical-address{
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2em;
 }
